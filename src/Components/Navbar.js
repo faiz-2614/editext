@@ -7,7 +7,7 @@ function Navbar(props) {
             <div>
                     <nav className={`navbar navbar-light bg-${props.mode==="light"?"dark":"light"}`}>
                         <div className="container-fluid">
-                        <a className="navbar-brand" href="/">
+                        <a className="navbar-brand" href="#">
                         <img src="../../edittext.png" alt="" width="24" height="24" className={`d-inline-block align-text-top`}/>
                         EdiText
                         </a>
